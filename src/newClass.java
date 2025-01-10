@@ -13,4 +13,10 @@ public class newClass {
     public void hello(){
         System.out.println("Hello");
     }
+    public Boolean willIGetLucky(){
+        if (((Math.random() * 2) - 1) == 1){
+            return true;
+        }
+        return false;
+    }
 }
