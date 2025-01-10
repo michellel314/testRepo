@@ -19,4 +19,8 @@ public class newClass {
         }
         return false;
     }
+
+    public String info(){
+        return "My name is " + name + " and I am " + num;
+    }
 }
