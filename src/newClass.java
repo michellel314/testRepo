@@ -10,4 +10,7 @@ public class newClass {
     public int getNum(){
         return num;
     }
+    public void hello(){
+        System.out.println("Hello");
+    }
 }
