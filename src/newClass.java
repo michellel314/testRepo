@@ -13,4 +13,8 @@ public class newClass {
     public void hello(){
         System.out.println("Hello");
     }
+
+    public String info(){
+        return "My name is " + name + " and I am " + num;
+    }
 }
